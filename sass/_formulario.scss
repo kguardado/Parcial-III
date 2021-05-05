@@ -1,0 +1,82 @@
+@import 'variables';
+
+.formulario {
+    background: #ffe857;
+    height: 10vh;
+    h2 {
+        color: #0d0036;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        text-transform: uppercase;
+        margin: 1rem;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+.contenedorfor {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+}
+.contenedorfor img {
+    max-height: 600px;
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+
+.contenedor1 {
+    width: 500px;
+    height: 600px;
+    background: #ffe857;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button {
+    background-color: #ff2a56;
+    color: white;
+    font-size: 1.25rem;
+    width: 350px;
+    height: 40px;
+    border: white;
+    justify-content: center;
+    align-items: center;
+}
+.nombre {
+    display: flex;
+    flex-direction: column;
+    color: #0d0036;
+    margin-bottom: 1.5rem;
+    h4 {
+        margin-bottom: 0.75rem;
+    }
+    input {
+        padding: 0.5rem;
+    }
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    color: #0d0036;
+    margin-bottom: 1.5rem;
+    h4 {
+        margin-bottom: 0.75rem;
+    }
+    input {
+        padding: 0.5rem;
+    }
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    color: #0d0036;
+    margin-bottom: 1.5rem;
+    h4 {
+        margin-bottom: 0.75rem;
+    }
+}
