@@ -1,9 +1,12 @@
 @import 'variables';
 
-.evolucion img{
+header {
+    height: 65vh;
     width: 100%;
-    height: auto;
-    /*position: fixed;*/
-    margin: 2.5rem 0;
-    
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+    }
